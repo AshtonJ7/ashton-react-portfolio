@@ -1,12 +1,40 @@
-.navbar {
-  background: #6a1b9a;
-  height: 60px;
+:root {
+  --light: #93C6E7;
+  --dark: #94BFCD;
 }
 
+.navbar {
+  position: fixed;
+  right: 20px;
+  position: fixed !important;
+  transition: all 0.3s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
+  font-size: 1.2rem !important;
+  }
+
+
 .navbar a {
-  color: white;
-  font-size: 1.3rem;
-  text-decoration: none;
-  margin: 5px;
-  line-height: 3;
-}
+    font-size: 22px;
+      color: var(--light);
+      padding: 14px 20px;
+      text-decoration: none;
+      
+    }
+  
+.navbar a:hover {
+    background-color: var(--light);
+    color: white;
+  }
+
+  /* For responsive Use*/
+
+  input[type=checkbox] {
+    display: none;
+    } 
+    
+    /* HAMBURGER MENU */
+    .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+    }

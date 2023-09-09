@@ -1,12 +1,81 @@
-.header {
-  background: #b71775;
-  height: 200px;
+:root {
+  --light: #93C6E7;
+  --dark: #94BFCD;
 }
 
-.header h1 {
-  margin: 0;
-  padding-top: 75px;
-  text-align: center;
+
+/* HEADER */
+
+
+.first-page {
+  padding-top: 30px; 
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.introduction {
+  padding: 9rem 0 2rem;
+  text-align: left;
+}
+
+.heading {
+  font-size: 100px;
+  padding-left: 50px;
+}
+
+.heading-name {
+  font-size: 100px; ;
+  padding-left: 45px;
+}
+
+.header-color {
+  color: var(--light);
+}
+
+.cover {
+  height: 60vh;
+}
+
+
+/* type Writer */
+
+
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: var(--light) !important;
+  font-weight: 600 !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: var(--light)!important;
+}
+
+
+
+.cta {
+  padding-top: 60px; 
+  position: relative;
+  left: 44%;
+}
+.cta-about {
+  border: 2px solid 	var(--dark);
+  background: transparent;
+  color:	var(--dark);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+
+.cta-portfolio {
+  background:	var(--dark);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
   color: white;
-  font-size: 3rem;
 }
