@@ -49,27 +49,34 @@ function About() {
             <ul className="home-about-skills-list">
               <li className="skills-icons ">
                 <a
-                  href="/"> 
+                  href="/"
+                  className="icon-colour home-social-icons"> 
                 <FaHtml5 size={"5em"} />
                 </a>
                 <p>HTML</p>
               </li>
               <li className="skills-icons">
                 <a
-                    href="/">
+                    href="/"
+                    className="icon-colour home-social-icons"
+                    >
+                  
                   <FaCss3  size={"5em"} />
+           
                   </a>
                   <p>CSS3</p>
               </li>
               <li className="skills-icons">
                 <a
-                    href="/">
+                    href="/"
+                    className="icon-colour home-social-icons">
                <IoLogoJavascript size={"5em"} />
                 </a>
                 <p>Javascript</p>
               </li>
               <li className="skills-icons">
                 <a
+                className="icon-colour home-social-icons"
                    href="/">
                   <FaNode size={"5em"} />
                 </a>
@@ -77,7 +84,8 @@ function About() {
               </li>
               <li className="skills-icons">
                 <a
-                    href="/">
+                    href="/"
+                    className="icon-colour home-social-icons">
                   <FaDatabase size={"5em"} />
                 </a>
                 <p>Database</p>

@@ -49,21 +49,17 @@ h2 {
   justify-content: space-evenly;
 }
 
-
-.home-skills-icons {
-  position: absolute;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 50%;
-  transition: 0.5s;
-  color: var(--dark);
+.home-about-skills-list {
+  font-weight: bold;
 }
-
-
-
-
+.home-social-icons {
+  backfround-color: var(--dark);
+  position: relative;
+}
+.home-social-icons:hover {
+color: var(--light);
+transition: 0.5s;
+}
 
 .git-cont .fab {
   vertical-align: bottom;
@@ -72,8 +68,7 @@ h2 {
   height: 30px;
   text-align: center;
   text-decoration: none;
-  color: var(--primary-color);
-  transition: 0.5;
+
 }
 .git-cont .fab:hover {
   color: var(--hover-color);
