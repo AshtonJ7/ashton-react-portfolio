@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  :root {
+    --light: #93C6E7;
+    --dark: #94BFCD;
+  }
+  

@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
-import Section from "./components/Section";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/style.css'
 
 function App() {
   return (
     <div>
       <Navbar />
       <Header />
-      <Section />
+      <About />
     </div>
   );
 }

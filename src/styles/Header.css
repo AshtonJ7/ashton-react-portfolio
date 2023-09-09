@@ -1,16 +1,9 @@
-:root {
-  --light: #93C6E7;
-  --dark: #94BFCD;
-}
-
 
 /* HEADER */
 
 
 .first-page {
   padding-top: 30px; 
-  width: 90%;
-  margin: auto;
   min-height: 100vh;
 }
 
@@ -35,6 +28,7 @@
 
 .cover {
   height: 60vh;
+  padding-bottom: 27px;
 }
 
 
@@ -52,11 +46,9 @@
 }
 
 
-
 .cta {
   padding-top: 60px; 
-  position: relative;
-  left: 44%;
+  text-align: center;
 }
 .cta-about {
   border: 2px solid 	var(--dark);

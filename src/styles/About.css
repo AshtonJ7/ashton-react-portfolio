@@ -1,0 +1,90 @@
+.myAvtar {
+  justify-content: center;
+
+}
+
+@media (max-width: 767px) {
+  .myAvtar {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+.home-about-section {
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.home-about-description {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.home-about-body {
+  padding-top: 50px;
+  font-size: 1.2em;
+}
+
+h2 {
+  display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding-right: 1px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+
+.home-about-skills-list {
+  justify-content: center;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  list-style-type: none;  
+  justify-content: space-evenly;
+}
+
+
+.home-skills-icons {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: var(--dark);
+}
+
+
+
+
+
+.git-cont .fab {
+  vertical-align: bottom;
+  padding: 10px;
+  font-size: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: 0.5;
+}
+.git-cont .fab:hover {
+  color: var(--hover-color);
+}
+.git-cont .fas {
+  vertical-align: bottom;
+  font-size: 40px;
+  height: 30px;
+  margin: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  transition: 0.5;
+}
