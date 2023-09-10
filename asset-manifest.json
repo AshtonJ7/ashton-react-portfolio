@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ashton-react-portfolio/static/css/main.9df885b4.css",
-    "main.js": "/ashton-react-portfolio/static/js/main.e9976674.js",
+    "main.css": "/ashton-react-portfolio/static/css/main.04f336b4.css",
+    "main.js": "/ashton-react-portfolio/static/js/main.e2b9c050.js",
     "static/media/speak-my-words.png": "/ashton-react-portfolio/static/media/speak-my-words.e044fb4b819018d8a105.png",
     "static/media/chapter-chatter.png": "/ashton-react-portfolio/static/media/chapter-chatter.f8d623e62a315559f0fc.png",
     "static/media/tech-corner.png": "/ashton-react-portfolio/static/media/tech-corner.9df64c047d2564a25427.png",
@@ -12,11 +12,11 @@
     "static/media/note-taker.png": "/ashton-react-portfolio/static/media/note-taker.681beecf40c749992eb5.png",
     "static/media/JATE.png": "/ashton-react-portfolio/static/media/JATE.a46771a3176173823278.png",
     "index.html": "/ashton-react-portfolio/index.html",
-    "main.9df885b4.css.map": "/ashton-react-portfolio/static/css/main.9df885b4.css.map",
-    "main.e9976674.js.map": "/ashton-react-portfolio/static/js/main.e9976674.js.map"
+    "main.04f336b4.css.map": "/ashton-react-portfolio/static/css/main.04f336b4.css.map",
+    "main.e2b9c050.js.map": "/ashton-react-portfolio/static/js/main.e2b9c050.js.map"
   },
   "entrypoints": [
-    "static/css/main.9df885b4.css",
-    "static/js/main.e9976674.js"
+    "static/css/main.04f336b4.css",
+    "static/js/main.e2b9c050.js"
   ]
 }
