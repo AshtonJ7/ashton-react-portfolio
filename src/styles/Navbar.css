@@ -38,3 +38,11 @@
     font-size: 24px;
     user-select: none;
     }
+
+
+@media (max-width: 767px) {
+  .navbar {
+    visibility:hidden;
+  }
+  
+}

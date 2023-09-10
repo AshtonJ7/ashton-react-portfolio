@@ -3,13 +3,14 @@
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  width: 100vw;
 }
 .footer-copywright {
   text-align: center !important;
 }
 
 .footer-body {
-  z-index: 1;
+  z-index: ;
   text-align: center !important;
 }
 

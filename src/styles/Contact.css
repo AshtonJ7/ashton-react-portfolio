@@ -6,7 +6,6 @@
     align-items: center;
   }
   .contact-form {
-    width: 1160px;
     box-sizing: border-box;
     display: block;
     margin: 3rem 3rem 0 3rem;
@@ -140,4 +139,11 @@
     justify-content: center;
     align-items: center;
     font-size: 40px;
+}
+
+@media (max-width: 508px) {
+  .contact-social-icons {
+    display:none;
+  }
+  
 }
