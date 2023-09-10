@@ -50,6 +50,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots
 
-![Screenshot 2023-09-10 203452](https://github.com/AshtonJ7/ashton-react-portfolio/assets/62944042/f14af7ae-4aed-4175-ae4e-48c1708313b5)
-
+![Screenshot 2023-09-10 203452](https://github.com/AshtonJ7/ashton-react-portfolio/assets/62944042/d047a4f8-db89-4d12-a2ac-ceeb2b32797d)
 
