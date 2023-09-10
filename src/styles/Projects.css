@@ -29,3 +29,9 @@
     overflow: hidden;
     box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561);
   }
+
+  .resume {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  }

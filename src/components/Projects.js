@@ -9,6 +9,15 @@ import jate from '../Assets/JATE.png';
 import msa from '../Assets/MSA.png';
 import tech from '../Assets/tech-corner.png';
 
+import Button from "react-bootstrap/Button";
+import pdf from "../Assets/Resume.pdf"
+import { AiOutlineDownload } from "react-icons/ai";
+import { pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
+
+
+
 function Projects() {
   return (
     <Container fluid className="project-section" id="projects">
@@ -42,7 +51,6 @@ function Projects() {
               demoLink="https://elleinadseer.github.io/speak-my-words/"
             />
           </Col>
-
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -91,9 +99,19 @@ function Projects() {
               demoLink="https://makenotes-03c8c8e35784.herokuapp.com/"              
             />
           </Col>
-
         </Row>
       </Container>
+      <div className= "resume">
+      <Button 
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px"}}
+          >
+            <AiOutlineDownload />
+            &nbsp;View/Downloard Resume
+          </Button>
+      </div>
     </Container>
   );
 }
