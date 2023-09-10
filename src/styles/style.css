@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
   }
   :root {
     --light: #93C6E7;
@@ -8,5 +7,8 @@
     --text: rgb(10, 4, 22);
   }
   
-  
+  .header-color {
+    color: var(--light);
+  }
+
  

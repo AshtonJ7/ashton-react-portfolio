@@ -23,7 +23,7 @@ function Projects() {
     <Container fluid className="project-section" id="projects">
       <Container>
        <h2 style={{ fontSize: "5em" }}>
-              <strong>Pro</strong><span class ="header-color"> Jects</span></h2>
+              <strong>Pro</strong><span class ="header-color">Jects</span></h2>
         <p>
         Feel free to browse through my most recent work.
         </p>
