@@ -17,8 +17,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <a href="/">Home</a>
-      <a href="/">Portfolio</a>
-      <a href="/">Contact</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
     </nav>
   );
 }

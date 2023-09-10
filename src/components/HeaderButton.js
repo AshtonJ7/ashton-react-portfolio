@@ -7,7 +7,7 @@ const HeaderButton = () => {
          <div class="cta">
             <div className="mx-auto">
                 <a href="#about"><button className="cta-about">About Me</button></a>
-                <a href="#portfolio"><button className="cta-portfolio">Portfolio</button></a>
+                <a href="#projects"><button className="cta-portfolio">Portfolio</button></a>
             </div>
             </div>
         </>

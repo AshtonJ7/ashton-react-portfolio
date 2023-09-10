@@ -52,34 +52,12 @@ h2 {
 .home-about-skills-list {
   font-weight: bold;
 }
-.home-social-icons {
-  backfround-color: var(--dark);
-  position: relative;
-}
-.home-social-icons:hover {
-color: var(--light);
-transition: 0.5s;
-}
 
-.git-cont .fab {
-  vertical-align: bottom;
-  padding: 10px;
-  font-size: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
+.about-skills-icons:hover {
+    color: var(--light);
+    cursor: none;
+  }
 
-}
-.git-cont .fab:hover {
-  color: var(--hover-color);
-}
-.git-cont .fas {
-  vertical-align: bottom;
-  font-size: 40px;
-  height: 30px;
-  margin: 25px;
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-  transition: 0.5;
-}
+  .blue {
+    color: rgb(10, 4, 22);
+  }
