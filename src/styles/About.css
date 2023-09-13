@@ -1,3 +1,13 @@
+
+.home-about-section {
+  padding-top: 30px; 
+  min-height: 100vh;
+}
+
+.intro {
+  padding: 9rem 0 2rem;
+}
+
 .myAvtar {
   display: flex;
   justify-content: center;
@@ -8,11 +18,6 @@
     padding-top: 2em;
     padding-bottom: 2em;
   }
-}
-
-.home-about-section {
-  position: relative;
-  padding-bottom: 70px;
 }
 
 .home-about-description {

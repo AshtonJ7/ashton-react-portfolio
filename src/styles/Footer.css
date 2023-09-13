@@ -4,6 +4,7 @@
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
   width: 100vw;
+  bottom: 0 !important;
 }
 .footer-copywright {
   text-align: center !important;

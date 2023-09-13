@@ -19,7 +19,7 @@ import { IoLogoJavascript } from "react-icons/io"
 function About() {
   return (
       <Container fluid className="home-about-section" id="about">
-        <Container>
+        <Container className="intro">
           <Row>
             <Col md={8} className="home-about-description">
             <h2 style={{ fontSize: "5em" }}>

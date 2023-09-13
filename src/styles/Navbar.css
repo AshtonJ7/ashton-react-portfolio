@@ -4,9 +4,8 @@
 }
 
 .navbar {
-  position: fixed;
   right: 20px;
-  position: fixed !important;
+  position: absolute !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;

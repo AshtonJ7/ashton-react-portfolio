@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("mleynydl");
   if (state.succeeded) {
@@ -44,7 +45,7 @@ function ContactForm() {
                     <p className="lead">
                     Feel free to contact me by submitting the form below and I will get back to you as soon as possible
                     </p>
-                    <Container>
+                    <Container id = "contact">
       <Container>
         <Row>
         <Col md={12} className="contact-social">
