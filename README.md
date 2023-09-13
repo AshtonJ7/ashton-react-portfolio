@@ -2,8 +2,8 @@
 
 ## Description
 
-I used the the design idea of my previous portfolio to create a brand new portfolio using React. I essentially refactored my previous portfolio. 
-My aim was to use all the knowledge I had gained to create portfolio with a nicer UI and show case my latest projects. 
+I used the the design idea of my previous portfolio to create a brand new portfolio using the React framework.
+My aim was to use all the knowledge I had gained to create portfolio with a nicer UI and show cases my latest projects and increased skill range. 
 
 ## User Story
 
@@ -47,8 +47,14 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 - React framework
 - Bootstrap
+- Formspree API
 
 ## Screenshots
 
 ![Screenshot 2023-09-10 203452](https://github.com/AshtonJ7/ashton-react-portfolio/assets/62944042/d047a4f8-db89-4d12-a2ac-ceeb2b32797d)
+
+## Link
+
+https://ashtonj7.github.io/ashton-react-portfolio/
+
 
