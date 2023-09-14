@@ -94,10 +94,25 @@
   color: var(--light)!important;
 }
 
-
+@media (max-width: 767px) {
+  .Typewriter__wrapper,
+  .Typewriter__cursor {
+ font-size: 10px;
+}
+.heading,
+.heading-name {
+  font-size: 50px;
+}
+.cta-about,
+.cta-portfolio {
+  width: 25px;
+  height: 25px;
+}
+}
 .cta {
-  padding-top: 60px; 
-  text-align: center;
+  padding-top: 50px; 
+  justify-content: center;
+  display: flex;
 }
 .cta-about {
   border: 2px solid 	var(--dark);

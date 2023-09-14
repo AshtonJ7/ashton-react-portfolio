@@ -18,16 +18,15 @@ function Resume() {
   return (
     <div>
       <Container fluid className="resume-section">
-
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 700 ? 1.7 : 0.6} />
+          <Document file={pdf} className="name">
+            <Page pageNumber={1} scale={width > 600 ? 1.7 : 0.6} />
           </Document>
         </Row>
-
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            className="CV"
+           className="CV"
+            variant="primary"
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
