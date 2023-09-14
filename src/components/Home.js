@@ -18,7 +18,6 @@ import HeaderButton from "./HeaderButton";
 
 function Home() {
   return (
-    <section>
       <Container fluid className="first-page" id="home">
         <Container className="introduction">
           <Row>
@@ -52,7 +51,6 @@ function Home() {
         </Container>
         <HeaderButton />
       </Container>
-    </section>
   );
 }
 

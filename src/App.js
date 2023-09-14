@@ -8,30 +8,24 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/style.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
+    <Router basename="/ashton-react-portfolio">
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
-        </Routes>
+          </Routes>
         <Footer />
-      </div>
     </Router>
   );
 }
 
 export default App;
-
-
-
-
