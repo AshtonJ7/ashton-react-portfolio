@@ -21,7 +21,7 @@ function Navbar() {
 
       {/* Links for larger screens */}
       <div className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/about">About Me</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
