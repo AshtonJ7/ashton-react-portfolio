@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e9f3eca.css",
-    "main.js": "/static/js/main.b887ed1e.js",
-    "static/media/speak-my-words.png": "/static/media/speak-my-words.e044fb4b819018d8a105.png",
-    "static/media/chapter-chatter.png": "/static/media/chapter-chatter.f8d623e62a315559f0fc.png",
-    "static/media/tech-corner.png": "/static/media/tech-corner.9df64c047d2564a25427.png",
-    "static/media/MSA.png": "/static/media/MSA.7130b37876d863ab678d.png",
-    "static/media/home-main.svg": "/static/media/home-main.c4be9926f52c94bb4e7ee79982aa5f3e.svg",
-    "static/media/Resume.pdf": "/static/media/Resume.4a6d32fccd3221238eb1.pdf",
-    "static/media/avatar.svg": "/static/media/avatar.d0f853cf9f4d8f09acc57a8e1851696f.svg",
-    "static/media/note-taker.png": "/static/media/note-taker.681beecf40c749992eb5.png",
-    "static/media/JATE.png": "/static/media/JATE.a46771a3176173823278.png",
-    "index.html": "/index.html",
-    "main.0e9f3eca.css.map": "/static/css/main.0e9f3eca.css.map",
-    "main.b887ed1e.js.map": "/static/js/main.b887ed1e.js.map"
+    "main.css": "/ashton-react-portfolio/home/static/css/main.0e9f3eca.css",
+    "main.js": "/ashton-react-portfolio/home/static/js/main.53e78daa.js",
+    "static/media/speak-my-words.png": "/ashton-react-portfolio/home/static/media/speak-my-words.e044fb4b819018d8a105.png",
+    "static/media/chapter-chatter.png": "/ashton-react-portfolio/home/static/media/chapter-chatter.f8d623e62a315559f0fc.png",
+    "static/media/tech-corner.png": "/ashton-react-portfolio/home/static/media/tech-corner.9df64c047d2564a25427.png",
+    "static/media/MSA.png": "/ashton-react-portfolio/home/static/media/MSA.7130b37876d863ab678d.png",
+    "static/media/home-main.svg": "/ashton-react-portfolio/home/static/media/home-main.c4be9926f52c94bb4e7ee79982aa5f3e.svg",
+    "static/media/Resume.pdf": "/ashton-react-portfolio/home/static/media/Resume.4a6d32fccd3221238eb1.pdf",
+    "static/media/avatar.svg": "/ashton-react-portfolio/home/static/media/avatar.d0f853cf9f4d8f09acc57a8e1851696f.svg",
+    "static/media/note-taker.png": "/ashton-react-portfolio/home/static/media/note-taker.681beecf40c749992eb5.png",
+    "static/media/JATE.png": "/ashton-react-portfolio/home/static/media/JATE.a46771a3176173823278.png",
+    "index.html": "/ashton-react-portfolio/home/index.html",
+    "main.0e9f3eca.css.map": "/ashton-react-portfolio/home/static/css/main.0e9f3eca.css.map",
+    "main.53e78daa.js.map": "/ashton-react-portfolio/home/static/js/main.53e78daa.js.map"
   },
   "entrypoints": [
     "static/css/main.0e9f3eca.css",
-    "static/js/main.b887ed1e.js"
+    "static/js/main.53e78daa.js"
   ]
 }
